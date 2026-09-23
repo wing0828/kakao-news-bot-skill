@@ -54,3 +54,11 @@ API 키, 인증 토큰, 채팅방 이름·ID·초대 링크, 닉네임, 장치 �
 ## 라이선스
 
 [MIT](LICENSE)
+
+## 추가로 설치할 수 있는 챗봇 스킬
+
+`skills/kakao-openchat-bot`에는 MessengerBotR API2 + Python + Gemini 기반의 카카오톡 오픈채팅 챗봇을 만들고 유지보수하는 Codex 스킬이 있습니다. 아키텍처, 명령 설계, 개인정보·보안 참고자료를 포함하며 실행 가능한 봇 코드나 인증 정보는 포함하지 않습니다.
+
+설치하려면 `skills/kakao-openchat-bot` 폴더 전체를 Codex skills 폴더에 복사하세요. [스킬 진입점](skills/kakao-openchat-bot/SKILL.md)을 참고하세요.
+
+관련 문서: [챗봇 기능 안내](FEATURES.md), [Buzz 적용 아이디어](BUZZ-IDEAS.md).
