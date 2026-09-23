@@ -34,6 +34,6 @@ The phone's notification reply session is stateful. A saved room name or numeric
 
 ## Existing-feature orientation
 
-The reference chatbot has included Korean AI news, general Gemini questions, room-specific response profiles, games and simple polls, scheduled reminders/news, weather and selected public-source lookups, document generation, and a local results page. Availability can vary by checkout, API quotas, and external credentials. Check the current code and [feature notes](../../FEATURES.md) before telling users a command is available.
+The reference chatbot has included Korean AI news, general Gemini questions, room-specific response profiles, games and simple polls, scheduled reminders/news, weather and selected public-source lookups, document generation, and a local results page. Availability varies by checkout, API quotas, and external credentials. Check the current code, command parser, and live help before telling users a command is available.
 
 When adding a feature, define its trigger, data source, permissions, output, rate limits, persistence, failure behavior, and a test plan. Prefer a small isolated adapter over adding broad access to the whole server.
